@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="icon/logoitse.png" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <title>ITSE TV</title>
+</head>
+
+<body class="bg-light-subtle w-100">
+    <a id="top"></a>
+    <!-- Encabezado -->
+    <header class="py-2 bg-body-secondary position-sticky top-0 z-3">
+        <div class="px-5">
+            <nav class="navbar navbar-expand-sm">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="icon/logoitse.png" alt="logo ITSE" class="me-2" style="width: 30px;">
+                    <span class="h5 mb-0 text-secondary fw-bold fs-6 ">ITSE TV</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mt-2">
+                        <li class="nav-item"><a href="index.html" class="nav-link text-secondary-emphasis">Inicio</a></li>
+                        <li class="nav-item"><a href="programas.html" class="nav-link text-secondary-emphasis">Programas</a></li>
+                        <li class="nav-item"><a href="#articulos" class="nav-link text-secondary-emphasis">Artículos</a></li>
+                        <li class="nav-item"><a href="#nosotros" class="nav-link text-secondary-emphasis">Nosotros</a></li>
+                        <li class="nav-item"><a href="#contacto" class="nav-link text-secondary-emphasis">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section id="banner" class="position-relative d-flex align-items-center justify-content-center w-100 ">
+            <img src="img/itse.jpeg" alt="itse" class="w-100 h-100 object-fit-cover position-absolute">
+            <div class="position-relative z-1 text-center text-white">
+                <div class="col-12 d-flex align-items-center justify-content-center g-3 mb-3">
+                    <img src="icon/logoitse.png" style="width: 30px; height: auto;" alt="logo itse tv">
+                    <h3 class="ms-2 fs-4 my-0">ITSE TV</h3>
+                </div>
+                <p class=" p-2 text-uppercase">El mejor contenido sobre tecnología y programación</p>
+                <a href="programas.html" class="btn btn-sm btn-lg btn-outline-light btn-banner p-2 text-white fw-bold" style="width: 150px;">Ver
+                    Programas</a>
+            </div>
+            <div class="position-absolute z-0 w-100 h-100 bg-black opacity-75"></div>
+        </section>
+
+        <section id="nosotros" class="container-sm  container-lg py-5">
+            <div class="row g-5 align-items-stretch mx-auto" >
+                <div class="col-lg-6">
+                    <div class="row mb-3">
+                        <h4 class="fw-bold">Sobre Nosotros</h4>
+                        <p class="text-justify text-secondary-emphasis">Somos ITSE TV, un canal dedicado a ofrecer contenido educativo y de
+                            entretenimiento relacionado con la
+                            tecnología y la programación. Nuestro objetivo es inspirar, educar y conectar a nuestra
+                            audiencia
+                            con
+                            expertos del sector y nuevas tendencias tecnológicas.</p>
+                    </div>
+                    <div class="row">
+                        <h5 class="fw-bold">Escucha nuestro audio promocional</h5>
+                        <audio controls>
+                            <source src="audio/acoustic-intro-155012.mp3" type="audio/mp3">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Nuestros Valores y Objetivos</h5>
+                    <ol class="text-secondary-emphasis">
+                        <li class="text-justify w-100"><b>Innovación:</b> Fomentar la creatividad y el desarrollo
+                            tecnológico mediante contenidos
+                            educativos y entretenidos.</li>
+                        <li><b>Educación:</b> Proporcionar programas que faciliten el aprendizaje sobre tecnología y
+                            programación.</li>
+                        <li><b>Comunidad:</b> Crear un espacio para la interacción y el crecimiento de una comunidad
+                            apasionada
+                            por la tecnología.</li>
+                        <li><b>Inspiración:</b> Compartir historias de éxito y entrevistas con expertos para motivar a
+                            la
+                            próxima generación de innovadores.</li>
+                        <li><b>Accesibilidad:</b> Hacer que el contenido sea accesible y fácil de entender para todos.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="articulos" class="p-5 bg-body-secondary">
+            <h4 class="text-center mb-4 fw-bold text-secondary-emphasis">Artículos Relacionados</h4>
+            <div class="d-flex flex-nowrap overflow-auto gap-4 carrusel mb-4">
+                <div class="card shadow-sm" style="min-width:18rem;max-width: 20rem;">
+                    <img src="img/articulo1.jpg" class="card-img-top rounded-top object-fit-cover"  style="height: 250px;" alt="inteligencia-artificial">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-secondary-emphasis fs-5">Inteligencia Artificial y su Impacto</h5>
+                        <p class="card-text text-secondary-emphasis flex-grow-1">Explora cómo la inteligencia artificial está cambiando el
+                            mundo...</p>
+                        <a href="https://ojs.hospitalitaliano.org.ar/index.php/revistahi/article/view/323"
+                            target="_blank" class="stretched-link text-primary fw-bold opacity-75">Leer más...</a>
+                    </div>
+                </div>
+                <div class="card shadow-sm" style="min-width:18rem;max-width: 20rem;">
+                    <img src="img/articulo2.jpg" alt="programacion-principiantes" class="card-img-top rounded-top object-fit-cover" style="height: 250px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-secondary-emphasis">Programación para principiantes</h5>
+                        <p class="card-text text-secondary-emphasis flex-grow-1">Descubre cómo empezar en el mundo de la programación...</p>
+                        <a href="https://platzi.com/blog/como-aprender-a-programar/" target="_blank"
+                            class="stretched-link text-primary fw-bold opacity-75">Leer más...</a>
+                    </div>
+                </div>
+                <div class="card shadow-sm" style="min-width:18rem;max-width: 20rem;">
+                    <img src="img/articulo3.jpg" alt="nuevas-tecnologias" class="card-img-top rounded-top object-fit-cover " style="height: 250px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-secondary-emphasis">Nuevas Tecnologías y usos para la programación</h5>
+                        <p class="card-text text-secondary-emphasis flex-grow-1">Un análisis de las nuevas tecnologías informáticas y sus
+                            aplicaciones...</p>
+                        <a href="https://www.euroinnova.com/blog/nuevas-tecnologias-informaticas" target="_blank"
+                            class="stretched-link text-primary fw-bold opacity-75">Leer más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="p-4 mx-auto bg-dark bg-gradient">
+            <div class="w-100 mx-auto py-5  row d-flex flex-wrap justify-content-evenly align-items-center g-4">
+
+                <div class="col-12 col-md-6 contacto order-1 order-md-2 mb-3" style="max-width: 500px;">
+                    <h4 class="text-center text-white mb-3">Contáctanos</h4>
+                    <!-- Formulario de Contacto -->
+                    <form action="link" method="POST" id="form-contacto">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label  text-white">Nombre:</label>
+                            <input type="text" class="form-control form-control-sm" id="nombre" name="nombre" required
+                                minlength="3" maxlength="100">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white">Correo Electrónico:</label>
+                            <input type="email" class="form-control form-control-sm" id="email" name="email" required
+                                maxlength="100">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label text-white">Mensaje:</label>
+                            <textarea class="form-control form-control-sm" id="mensaje" name="mensaje" rows="3"
+                                required></textarea>
+                        </div>
+                        <div class="form-btn btn-group-sm d-flex justify-content-center g-4">
+                            <button type="reset" class="btn  btn-md btn-outline-light w-50 me-4">Borrar</button>
+                            <button type="submit" class="btn  btn-md btn-info btn-enviar text-white fw-bold w-50 ">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 ubicacion order-2 order-md-1 mb-3" style="max-width: 500px;">
+                    <h4 class="text-center text-white mb-3">Ubicación del Canal</h4>
+                    <!-- Iframe de ubicación -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.689490103664!2d-64.26317122546719!3d-27.757721829037838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b53d8980ffc8b%3A0x22b73749d79f860d!2sITSE%20-%20Instituto%20Tecnol%C3%B3gico%20de%20Santiago%20del%20Estero!5e0!3m2!1ses!2sar!4v1727534753884!5m2!1ses!2sar"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <a href="#top" id="btn-subir" class="btn btn-primary rounded-circle position-fixed z-2 border-0" style="bottom: 20px; right: 20px; "><i class="fa-solid fa-arrow-up"></i></a>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center p-3">
+        <div class="redes d-flex justify-content-center align-items-center g-5 my-3 mx-auto">
+            <a href="https://www.facebook.com" target="_blank" class="text-decoration-none text-secondary me-3">
+                <i class="fab fa-facebook fa-lg "></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="text-decoration-none text-secondary me-3">
+                <i class="fab fa-instagram fa-lg "></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" class="text-decoration-none text-secondary">
+                <i class="fab fa-youtube fa-lg "></i>
+            </a>
+        </div>
+        <p class="mb-0 fs-6  text-secondary">&copy; 2024 ITSE TV. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+
+</html>

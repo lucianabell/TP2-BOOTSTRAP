@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #218da5 !important;
+}
+
+#banner {
+  height: 70vh;
+}
+
+#banner h3 {
+  text-shadow: #00000098 2px 2px 4px;
+}
+
+#banner p {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.btn-banner:hover {
+  background-color: #218da5 !important;
+  border-color: #218da5 !important;
+  color: #ffffff !important;
+}
+
+#nosotros p,
+li {
+  text-align: justify;
+}
+
+#nosotros h3,
+h5,
+h4 {
+  color: #218da5;
+}
+
+.redes i {
+  font-size: 1.2rem;
+  transition: all 0.25s ease-in-out;
+}
+
+.redes a:first-child:hover i {
+  color: #2656be;
+  transform: scale(1.2);
+}
+.redes a:nth-child(2):hover i {
+  color: #9d2cac;
+  transform: scale(1.2);
+}
+
+.redes a:nth-child(3):hover i {
+  color: #aa1313;
+  transform: scale(1.2);
+}
+
+#btn-subir {
+  background-color: #218da5;
+  color: white;
+}
+
+.btn-enviar {
+  background-color: #218da5;
+  border: none;
+}
+
+.carousel-item iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.carousel-item .card-body h4 {
+  color: #218da5;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  #banner p {
+    font-size: 16px;
+  }
+  #articulos > div {
+    justify-content: center;
+  }
+  #banner {
+    height: 80vh;
+  }
+}
+@media (min-width: 992px) {
+  #banner {
+    height: 90vh;
+  }
+}
